@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+html{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: rgb(107, 18, 158);
+}
+
+
+/* header */
+
+
+header {
+    max-height: 60px;
+    background-color: rgb(216, 223, 5);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    font-size: 120%;
+
+}
+
+nav{
+    width: 60%;
+    padding: 0.1%;;
+    display: flex;
+    flex : 1;
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(107, 18, 158);
+    padding: 1%;
+    background-color: rgb(216, 223, 5);
+    transition: all 200ms;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    max-height : 60px;
+    max-width: 60px;
+
+}
+
+header nav a:hover{
+    background-color: rgb(191, 191, 4);
+
+}
+
+.logo{
+    width: 3%;
+
+}
+
+
+/* Main */
+
+
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5rem;
+
+}
+
+.champ{
+    margin: 1%;
+    width: 20%;
+
+}
+
+
+input{
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px 5px;
+    border-style: none;
+    height: 2rem;
+    max-width: 100%;
+
+}
+
+/* footer */
+
+footer{
+    padding-top: 100%;
+    justify-content: center;
+    display: flex;
+    color: #00000075;
+
+}

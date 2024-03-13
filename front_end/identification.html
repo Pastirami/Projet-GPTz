@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/vrais_logo.png" alt="logo"></a>
+        <nav>
+            <a href="#">A propos</a>
+            <a href="#">Antonin</a>
+            <a href="#">Hugo</a>
+        </nav>
+    </header>
+    <article>
+    <form action="http://localhost:3000/api/v1/eleve" method="post">
+        <input class ="champ" id="Nom" type="text" name="name" placeholder="Entrez votre nom"><br>
+        <a href="./index.html"><input class ="champ" id="Bouton" type="submit" value="Soumettre" ></a>
+    </form>
+</article>
+<footer>
+    <p>Créer en 2024 par Hugo et Antonin</p>
+</footer>
+</body>
+<script type="module" src="./fetch.js"></script>
+</html>
